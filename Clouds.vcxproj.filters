@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\TropicalSunnyDay">
+      <UniqueIdentifier>{8f0cdfe7-7520-411b-bf29-e9cab940ed09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CloudsData">
+      <UniqueIdentifier>{8d77395f-262f-474c-a187-426bf642912f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="TropicalSunnyDay\cloudtop_bk.tga">
+      <Filter>Resource Files\TropicalSunnyDay</Filter>
+    </Image>
+    <Image Include="TropicalSunnyDay\cloudtop_dn.tga">
+      <Filter>Resource Files\TropicalSunnyDay</Filter>
+    </Image>
+    <Image Include="TropicalSunnyDay\cloudtop_ft.tga">
+      <Filter>Resource Files\TropicalSunnyDay</Filter>
+    </Image>
+    <Image Include="TropicalSunnyDay\cloudtop_lf.tga">
+      <Filter>Resource Files\TropicalSunnyDay</Filter>
+    </Image>
+    <Image Include="TropicalSunnyDay\cloudtop_rt.tga">
+      <Filter>Resource Files\TropicalSunnyDay</Filter>
+    </Image>
+    <Image Include="TropicalSunnyDay\cloudtop_up.tga">
+      <Filter>Resource Files\TropicalSunnyDay</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Particle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgaLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CloudsData\cloud0.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud1.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud2.cld">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud2.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud3.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud4.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud5.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud6.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud7.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud8.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud9.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+    <None Include="CloudsData\cloud10.dat">
+      <Filter>Resource Files\CloudsData</Filter>
+    </None>
+  </ItemGroup>
+</Project>
